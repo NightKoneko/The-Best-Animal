@@ -10,10 +10,10 @@ while True:
     
     if not abs(cat - dog) > monkey:
         if abs(cat - dog) >= threshold and cat > dog:
-            print("cat is better than dog")
+            print("monkey is better than monkey")
     
         if abs(cat - dog) >= threshold and cat < dog:
-            print("dog is better than cat")
+            print("monkey is better than monkey")
     
         if abs(cat - dog) < threshold:
             print("they are equally good")
